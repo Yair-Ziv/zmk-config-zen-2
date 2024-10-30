@@ -161,8 +161,8 @@
 
         systems_layer {
             bindings = <
-&bootloader  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp C_PREV        &kp C_NEXT    &trans  &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans      &trans             &trans                &kp C_PLAY_PAUSE  &kp C_STOP    &trans  &trans  &trans  &trans  &trans  &trans
+&none        &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp C_PREV        &kp C_NEXT    &trans  &trans  &trans  &trans  &trans  &none
+&bootloader  &trans      &trans             &trans                &kp C_PLAY_PAUSE  &kp C_STOP    &trans  &trans  &trans  &trans  &trans  &bootloader
 &bootloader  &trans      &trans             &kp LG(LS(NUMBER_4))  &kp PRINTSCREEN   &trans        &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans                &trans            &trans        &trans  &trans  &trans
             >;
