@@ -36,12 +36,12 @@
 
         bn_underscore {
             bindings = <&kp UNDER>;
-            key-positions = <29 30>;
+            key-positions = <28 31>;
         };
 
         ty_caps_word {
             bindings = <&caps_word>;
-            key-positions = <5 6>;
+            key-positions = <4 7>;
         };
 
         sd_d_equals {
