@@ -58,6 +58,11 @@
             bindings = <&l_equals>;
             key-positions = <13 26>;
         };
+
+        tltr_sleep {
+            bindings = <&kp C_SLEEP>;
+            key-positions = <0 11>;
+        };
     };
 
     macros {
