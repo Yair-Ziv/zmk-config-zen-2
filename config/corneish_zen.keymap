@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_CAPS";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS>;
+            bindings = <&kp LSHIFT>, <&snake_caps_word>, <&kp CAPS>;
         };
 
         td_c_p: td_c_p {
@@ -29,6 +29,13 @@
             label = "TD_C_P";
             #binding-cells = <0>;
             bindings = <&mt LCTRL ESC>, <&kp LG(C)>, <&kp LG(V)>;
+        };
+
+        snake_caps_word: snake_caps_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "SNAKE_CAPS_WORD";
+            #binding-cells = <0>;
+            continue-list = <UNDER MINUS SPACE DELETE BACKSPACE>;
         };
     };
 
