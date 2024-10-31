@@ -21,14 +21,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_CAPS";
             #binding-cells = <0>;
-            bindings = <&caps_word>, <&kp CAPSLOCK>;
+            bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS>;
         };
 
         td_c_p: td_c_p {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_C_P";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp LG(C)>, <&kp LG(V)>;
+            bindings = <&mt LCTRL ESC>, <&kp LG(C)>, <&kp LG(V)>;
         };
     };
 
